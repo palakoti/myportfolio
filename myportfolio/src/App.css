@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  font-family: 'Calibri';
+  font-style: normal;
+  font-size:1.1rem;
+  color: #CBD1D1;
 }
 
 .App-logo {
@@ -8,15 +12,39 @@
 }
 
 .App-header {
-  background-color: #222;
-  height: 150px;
+  height: 50px;
   padding: 20px;
-  color: white;
+  border-bottom: thick;
+  box-shadow: 0px 8px 10px 0px rgb(2, 34, 34);
 }
 
-.App-intro {
-  font-size: large;
+.intro {
+  text-align: left;
+  padding: 100px 320px 20px 320px;
 }
+
+.skills {
+  text-align: left;
+  padding: 80px 120px 20px 120px;
+  background: transparent;
+}
+
+.cardbg{
+  border: 0px !important;
+  background-color:  rgb(26, 66, 66) !important;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+.myimage {
+    height: 215px;
+    width: 205px;
+    border-radius: 100px;
+    box-shadow: 4px 2px 8px 1px black;
+  }
 
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
