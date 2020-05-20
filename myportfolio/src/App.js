@@ -1,19 +1,23 @@
 import React, { Component } from 'react';
-import AppHeader from './components/AppHeader';
 import './App.css';
-import Home from './components/Home';
+import AppHeader from './components/AppHeader';
 import Introduction from './components/Introduction';
 import Skills from './components/Skills';
+import WorkHistory from './components/WorkHistory';
+import Education from './components/Education';
+import Achievements from './components/Achievements';
 import Card from '@material-ui/core/Card';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <AppHeader></AppHeader>
-        <Introduction></Introduction>
-        <Skills></Skills>
-      </div>
+      <div id="App">
+    <Introduction></Introduction>
+          <Skills></Skills>
+          <WorkHistory></WorkHistory>
+          <Education></Education>
+          <Achievements></Achievements>
+          	</div>
     );
   }
 }
