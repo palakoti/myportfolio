@@ -52,7 +52,7 @@ class Introduction extends Component {
                             <div className="desc" style={{paddingTop: "10em"}}>
                                 <h1>I am a Developer</h1>
                             <div id="navbar">
-                    <a className="btn btn-learn" href="#skills" data-nav-section="skills">View Portfolio</a>    
+                    {/* <a className="btn btn-learn" href="#skills" data-nav-section="skills">View Portfolio</a>     */}
                     
                 <a href="assets/swethapalakoti.pdf" className="btn btn-learn">Download CV</a>                
                   </div>
@@ -66,10 +66,12 @@ class Introduction extends Component {
         </li>
         </ul>
         
- <div className="message"><span>scroll down for more </span><ExpandMoreIcon/></div>
-    </div>
-
+   </div>
+   
 </section>
+<div className="message">
+    <a className="btn btn-learn" href="#skills" data-nav-section="skills"><ExpandMoreIcon style={{fontSize: "60px"}}/></a></div>
+  
         </div>
     );
     

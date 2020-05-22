@@ -22,15 +22,15 @@ class Education extends Component {
 									<div className="desc">
 										<div className="con first">
 						          <div className="row">
-							          <div className="col-md-10">
+							          <div className="col-md-12">
                           <h3><a>Northern Illinois University</a></h3>
                           <h4>Management Information Systems</h4>
-                          <span>Master's</span>
-                          <span>2019 - Present</span>
+                          <span>Master's <SchoolIcon style={{fontSize:"35px"}}/></span>
+                          <span style={{fontSize:"13px"}}>2019 - Present</span>
                         </div>
-                        <div className="col-md-2">
+                        {/* <div className="col-md-2">
                           <span><SchoolIcon style={{fontSize:"60px"}}/></span>
-                        </div>
+                        </div> */}
                       </div>
 										</div>
 									</div>
@@ -41,14 +41,11 @@ class Education extends Component {
 									<div className="desc">
 										<div className="con second">
                     <div className="row">
-							          <div className="col-md-10">
+							          <div className="col-md-12">
                         <h3><a>Jawaharlal Technological University</a></h3>
                       <h4>Computer Science</h4>
-                      <span>Bachelor's</span>
-											<span>2010 - 2014</span>
-                        </div>
-                        <div className="col-md-2">
-                          <span><SchoolIcon style={{fontSize:"60px"}}/></span>
+                      <span>Bachelor's <SchoolIcon style={{fontSize:"35px"}}/></span>
+											<span style={{fontSize:"13px"}}>2010 - 2014</span>
                         </div>
                       </div>											
 										</div>
