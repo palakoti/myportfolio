@@ -1,33 +1,101 @@
-import React, { Image, Component, useState } from 'react';
+import React, { Component } from 'react';
 import '../App.css';
-import Card from 'react-bootstrap/Card';
-import CardHeader from 'react-bootstrap/Card';
-import CardBody from 'react-bootstrap/Card';
-import Carousel from 'react-bootstrap/Carousel'
+import '../style.css';
 import CodeIcon from '@material-ui/icons/Code';
 import SettingsApplicationsIcon from '@material-ui/icons/SettingsApplications';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import StorageIcon from '@material-ui/icons/Storage';
 import BuildIcon from '@material-ui/icons/Build';
 import WebIcon from '@material-ui/icons/Web';
-
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class Skills extends Component {
 
   render() {
+      
     return (
-        <div className="skills">
-          <section className="colorlib-about">
-        <div className="colorlib-narrow-content">
+        <div>
+          <section className="skills" id="skills" data-section="skills">
+          
+        <div className="main-content">
+        
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">What I do?</span>
-                <h2 className="colorlib-heading">Expertise</h2>
+                <span className="heading-meta">Expertise</span>
+                <h2 className="heading"></h2>
             </div>
             </div>
+            <div className="skills-carousel">
+            <Slider  dots={false}
+        infinite={true}
+        speed={700}
+        slidesToShow={5}
+        slidesToScroll={1}
+        autoplay= {true}
+  autoplaySpeed={700}>
+        <div><img className="img-responsive" src="assets/java.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/csharp.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/python.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/swift.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/html.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/css.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/bootstrap.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/javascript.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/react.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/angular.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/nodejs.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/db.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/oracle.png"
+      />
+        </div>
+
+        <div><img className="img-responsive" src="assets/sql.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/mongodb.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/oracle.png"
+      />
+        </div>
+
+        <div><img className="img-responsive" src="assets/rest.png"
+      />
+        </div>
+        <div><img className="img-responsive" src="assets/jenkins.png"
+      />
+        </div>
+      </Slider>
+      </div>
             <div className="row row-pt-md">
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
+                <div className="sub-content color-3">
                 <span className="icon">
                     <i>
                    <CodeIcon style={{color: "#fff"}} fontSize="large"/></i>
@@ -43,22 +111,22 @@ class Skills extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
+                <div className="sub-content color-4">
                 <span className="icon">
                     <i><SettingsApplicationsIcon fontSize="large"/></i>
                 </span>
                 <div className="desc">
-                    <h3>Microservices</h3>
+                    <h3>Microsub-content</h3>
                     <ul>
                       <li>JSON</li>
-                      <li>Restful Web-services</li>
-                      <li>Asynchronous & Synchronous API</li>
+                      <li>Restful Web-sub-content</li>
+                      <li>Async & Sync API</li>
                     </ul>
                 </div>
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
+                <div className="sub-content color-5">
                 <span className="icon">
                     <i><WebIcon fontSize="large"/></i>
                 </span>
@@ -77,7 +145,7 @@ class Skills extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-5">
+                <div className="sub-content color-5">
                 <span className="icon">
                     <i><EmojiObjectsIcon fontSize="large"/></i>
                 </span>
@@ -92,7 +160,7 @@ class Skills extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-3">
+                <div className="sub-content color-3">
                 <span className="icon">
                     <i><StorageIcon fontSize="large"/></i>
                 </span>
@@ -107,7 +175,7 @@ class Skills extends Component {
                 </div>
             </div>
             <div className="col-md-4 text-center animate-box">
-                <div className="services color-4">
+                <div className="sub-content color-4">
                 <span className="icon">
                     <i><BuildIcon fontSize="large"/></i>
                 </span>
@@ -123,6 +191,7 @@ class Skills extends Component {
             </div>
             </div>
         </div>
+
         </section>
         </div>
     );
@@ -131,10 +200,3 @@ class Skills extends Component {
 }
 
 export default Skills;
-// • Programming Languages: Java/J2EE, C#, Objective-C, Swift
-// • Web Technologies: CSS3, HTML5, Bootstrap, jQuery, AngularJS, ReactJS, JavaScript, AJAX,
-// ECMAScript (ES6, ES7)
-// • Database: SQL Server
-// • Operating System: Windows, OSX, Linux
-// • Developer Tools: Visual Studio, Eclipse IDE, XCode
-// • Other Tools: GitHub, JIRA, Jenkins, SonarQube, IBM tools (WebSphere Portal, MobileFirst App Server)
