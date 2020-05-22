@@ -83,6 +83,12 @@ h1, h2, h3, h4, h5, h6 {
     #intro .flexslider .nav-icons {
       text-align: left;
       padding: 1.5rem 3rem 3rem 5rem;}
+
+      @media screen and (max-width: 768px) {
+      #intro .flexslider .nav-icons {
+        text-align: left;
+        padding: 1.5rem 3rem 3rem 2rem;}
+      }
       #intro .flexslider .buttons {
         text-align: right;
         margin-top: 0em;
@@ -229,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 .sub-content
  {
   margin-top: 0px;
-  padding-top: 3em;
+  padding-top: 2em;
   padding-bottom: 1em;
   padding-left: 3em;
   padding-right: 3em;
@@ -242,8 +248,8 @@ h1, h2, h3, h4, h5, h6 {
     .education,
     .ach,
     .sub-content {
-      padding-top: 3em;
-      padding-bottom: 5em;
+      padding-top: 1em;
+      padding-bottom: 3em;
       padding-left: 0em;
       padding-right: 0em;
     } }
@@ -889,6 +895,12 @@ h1, h2, h3, h4, h5, h6 {
  .message a{
    color:#fff;
    margin-top: -12em;
+ }
+ 
+ .finalText{
+   font-size: 10px;
+   text-align: center;
+   color: rgb(114, 111, 111);
  }
 
 @media screen and (max-width: 480px) {

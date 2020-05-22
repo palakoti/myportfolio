@@ -20,7 +20,7 @@ class Achievements extends Component {
 							<div className="desc">
 							<span><small>February, 2018 </small></span>
 							<h4><a className="desc-one">Award of ‘Best Performer’</a></h4>
-							<p>Awarded during first quarter 2018, by systems integration Head, Prolifics Inc.</p>
+							<p>Awarded during first quarter 2018, by Systems Integration Head, Prolifics Inc.</p>
 						</div>
 					</div>
 					</div>
@@ -45,6 +45,7 @@ class Achievements extends Component {
 				</div>
 			</div>
 			</section>
+			<p className="finalText">I hereby confirm that above data is accurate to the best of my knowledge.</p>
         </div>
     );
     

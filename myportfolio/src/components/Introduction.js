@@ -24,7 +24,7 @@ class Introduction extends Component {
                  <li style={{display: 'inline', paddingRight: '1rem'}}><a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer"><Facebook fontSize="large" style={{ color: '#fff', fontSize: 30}}/></a></li>
                  <li style={{display: 'inline', paddingRight: '1rem'}}><a href="https://www.instagram.com/swethapalakoti/" target="_blank" rel="noopener noreferrer"><InstagramIcon fontSize="large" style={{ color: '#fff', fontSize: 30}}/></a></li>
                  <li style={{color: "#fff", fontSize: "16px"}}><a href="mailto:swethapalakoti@outlook.com">swethapalakoti@outlook.com</a></li>
-                <li style={{color: "#fff"}}>(312) 858-0111</li>
+                <li style={{color: "#fff"}}>+1 (312) 858-0111</li>
                 
                 </ul>
         <ul className="slides">
