@@ -10,7 +10,7 @@ import WebIcon from '@material-ui/icons/Web';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Navigation from './Navigation';
+// import Navigation from './Navigation';
 
 class Skills extends Component {
 

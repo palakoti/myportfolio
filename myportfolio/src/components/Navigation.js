@@ -4,7 +4,7 @@ import '../App.css';
 import '../style.css';
 import EmojiObjectsIcon from '@material-ui/icons/EmojiObjects';
 import QueryBuilderIcon from '@material-ui/icons/QueryBuilder';
-import { Icon, InlineIcon } from '@iconify/react';
+import { Icon } from '@iconify/react';
 import trophyIcon from '@iconify/icons-bi/trophy';
 import roundSchool from '@iconify/icons-ic/round-school';
 
