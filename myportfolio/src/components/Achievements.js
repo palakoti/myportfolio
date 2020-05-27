@@ -6,8 +6,8 @@ class Achievements extends Component {
     
   render() {
     return (
-        <div className="">
-				 <section className="ach" data-section="ach">
+        <div name="ach">
+				 <section className="ach" id="ach" data-section="ach">
 			<div className="main-content">
 				<div className="row">
 					<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
@@ -38,7 +38,7 @@ class Achievements extends Component {
 						<div className="desc">
 							<span><small>March 2, 2020 </small></span>
 							<h4><a className="desc-three">Featured in NIU Today</a></h4>
-							<p class="link">Featured in <a href="https://www.niutoday.info/2020/03/02/meet-the-team-of-niu-women-behind-illinois-new-cutting-edge-educational-data-application/?fbclid=IwAR3HzJsh215ubiH5LXLBIVDl7HOwWbTDDYq-XNJawO6EbYAJO7X9TQXEXq8">NIU Today</a> as part of women team in Illinois Interactive Report Cards at Northern Illinois University</p>
+							<p className="link">Featured in <a href="https://www.niutoday.info/2020/03/02/meet-the-team-of-niu-women-behind-illinois-new-cutting-edge-educational-data-application/?fbclid=IwAR3HzJsh215ubiH5LXLBIVDl7HOwWbTDDYq-XNJawO6EbYAJO7X9TQXEXq8">NIU Today</a> as part of women team in Illinois Interactive Report Cards at Northern Illinois University</p>
 						</div>
 					</div>
 					</div>

@@ -8,7 +8,7 @@ class Education extends Component {
   render() {
     return (
         <div>
- <section className="education" data-section="education">
+ <section className="education" data-section="education" id="education">
 					<div className="main-content">
 						<div className="row">
 							<div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">

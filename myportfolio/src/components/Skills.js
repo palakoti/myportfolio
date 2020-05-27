@@ -10,20 +10,21 @@ import WebIcon from '@material-ui/icons/Web';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Navigation from './Navigation';
 
 class Skills extends Component {
 
-  render() {
-      
+  render() {      
     return (
         <div>
-          <section className="skills" id="skills" data-section="skills">
+          <section className="skills" id="skills" data-section="skills" name="skills">
+
+        {/* <Navigation></Navigation> */}
           
-        <div className="main-content">
-        
+        <div className="main-content">        
             <div className="row">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInLeft">
-                <span className="heading-meta">Expertise</span>
+                <span className="heading-meta">Some of My Expertise</span>
                 <h2 className="heading"></h2>
             </div>
             </div>

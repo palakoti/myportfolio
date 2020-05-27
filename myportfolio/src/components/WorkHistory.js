@@ -7,7 +7,7 @@ class WorkHistory extends Component {
   render() {
     return (
       <div>
-      <section className="experience" id="experience" data-section="experience">
+      <section className="experience" id="experience" data-section="experience" name="experience">
         <div className="main-content">
             <div className="col-md-6 col-md-offset-3 col-md-pull-3 animate-box" data-animate-effect="fadeInTop">
              

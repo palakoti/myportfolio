@@ -28,7 +28,12 @@
     "sticky-kit": "^1.1.3",
     "yarn": "^1.22.4"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@iconify/icons-bi": "^1.0.2",
+    "@iconify/icons-ic": "^1.0.11",
+    "@iconify/icons-ion": "^1.0.12",
+    "@iconify/react": "^1.1.3"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

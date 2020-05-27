@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: hidden;
   position: relative; }
 
-.container-wrap {
+.container {
   max-width: 1170px;
   padding: 0rem 0rem 1rem 0rem;
   margin: 0 auto; }
@@ -58,12 +58,45 @@ h1, h2, h3, h4, h5, h6 {
   -o-transition: 0.5s;
   transition: 0.5s; }
   @media screen and (max-width: 768px) {
-    .container-wrap{
+    .container{
       padding: 0rem 3rem 1rem 3rem;
     }
     #main {
       width: 100%;
       padding: 0 1em; } }
+
+      .navigation{
+        /* padding-top: 0em; */
+        /* padding-bottom: 2em; */
+      }
+      .navigation ul {
+        background-color: transparent;
+        /* padding: 0em 30em 0em 30em; */
+        list-style-type: none;
+        padding: 0;
+        overflow: hidden;
+        text-align: center;
+      }
+      
+      .navigation ul li {
+        float: left;
+        /* padding: 1em 1em 1em 1em; */
+      }
+
+      /* .navigation ul .active{
+        background-color: rgb(2, 2, 2);
+      } */
+      
+      .navigation ul li a {
+        cursor: pointer;
+        color: white;
+        display: block;
+        text-align: center; 
+      }
+      
+      .navigation ul li a:hover {
+        background-color: #111;
+      }
 
 #intro {
   background-image: url('../public/assets/background.jpg');
@@ -72,13 +105,13 @@ h1, h2, h3, h4, h5, h6 {
   background-position: top;
   min-height: 500px;width: 100%;
   float: left;
-  margin-bottom: 2em;
+  margin-bottom: 0em;
   clear: both; }
   #intro .flexslider { 
     text-align: center;
     background: transparent;
     border: none;
-    z-index: 1;
+    /* z-index: 0.8; */
     margin-bottom: 0; }
     #intro .flexslider .nav-icons {
       text-align: left;
@@ -235,7 +268,7 @@ h1, h2, h3, h4, h5, h6 {
 .sub-content
  {
   margin-top: 0px;
-  padding-top: 2em;
+  padding-top: 0em;
   padding-bottom: 1em;
   padding-left: 3em;
   padding-right: 3em;
@@ -248,7 +281,7 @@ h1, h2, h3, h4, h5, h6 {
     .education,
     .ach,
     .sub-content {
-      padding-top: 1em;
+      padding-top: 2em;
       padding-bottom: 3em;
       padding-left: 0em;
       padding-right: 0em;
@@ -888,13 +921,14 @@ h1, h2, h3, h4, h5, h6 {
     background: #f0f0f0; }
 
 .message {
-  margin-bottom: 2em;
+  z-index: 1;
   text-align: center;
+  /* padding-bottom: -1em; */
+  padding-top: 12em;
  }
 
  .message a{
    color:#fff;
-   margin-top: -12em;
  }
  
  .finalText{
