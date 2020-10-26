@@ -22,13 +22,6 @@ class WorkHistory extends Component {
                     <div className="emp-icon color-3" >
                       {/* <i className="icon-pen2" /> */}<AccessTimeIcon style={{fontSize: '25', verticalAlign: 'middle'}}/>
                     </div>
-                    <div className="emp-label">
-                      <h2>IT Technical Associate</h2>
-                      <h4 style={{textAlign: "right"}}>May 2020 - Present</h4>
-                      <h4>Report Cards (NIU)</h4>
-                      <h4>DeKalb, IL, USA.</h4>
-                      <p>Front-end development using Html5, CSS3, Bootstrap | Develop and Maintain data frameworks using C#</p>
-                    </div>
                   </div>
                 </article>
                 <article className="emp-entry animate-box" data-animate-effect="fadeInLeft">
