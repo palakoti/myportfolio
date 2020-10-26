@@ -17,15 +17,36 @@ class WorkHistory extends Component {
           <div className="row">
             <div className="col-md-12">
               <div className="emp-centered">
-                <article className="emp-entry animate-box" data-animate-effect="fadeInLeft">
+              <article className="emp-entry animate-box" data-animate-effect="fadeInLeft">
                   <div className="emp-entry-inner">
                     <div className="emp-icon color-3" >
                       {/* <i className="icon-pen2" /> */}<AccessTimeIcon style={{fontSize: '25', verticalAlign: 'middle'}}/>
                     </div>
                     <div className="emp-label">
-                      <h2>Software Developer</h2>
-                      <h4>IIRC (NIU), DeKalb, IL, USA.</h4>
-                      <p>Front-end development using Html5, CSS3, Bootstrap | Develop and Maintain data frameworks usingAJAX and C#</p>
+                      <h2>IT Technical Associate</h2>
+                      <h4 style={{textAlign: "right"}}>May 2020 - Present</h4>
+                      <h4>Report Cards (NIU)</h4>
+                      <h4>DeKalb, IL, USA.</h4>
+                      <p>Front-end development using Html5, CSS3, Bootstrap | Develop and Maintain data frameworks using C#</p>
+                    </div>
+                  </div>
+                </article>
+                <article className="emp-entry animate-box" data-animate-effect="fadeInLeft">
+                  <div className="emp-entry-inner">
+                    <div className="emp-icon color-3" >
+                      <AccessTimeIcon style={{fontSize: '25', verticalAlign: 'middle'}}/>
+                    </div>
+                    <div className="emp-label">
+
+<h4 style={{ position:"absolute",
+paddingRight: "1em",
+paddingTop: "1em",
+   top:"1",
+   right:"0"}}>May 2020 - August 2020</h4>
+                      <h2>IT Technical Associate - Intern</h2>
+                      <h4>Illinois Interactive Report Cards - NIU</h4>
+                      <h4>DeKalb, IL, USA.</h4>
+                      <p>Application Interface Development and Data Integration using Html5, CSS3, Bootstrap, XSL | Develop and Maintain data frameworks using C#</p>
                     </div>
                   </div>
                 </article>
@@ -36,9 +57,11 @@ class WorkHistory extends Component {
                     </div>
                     <div className="emp-label">
                     <h2>Sr Member Technical</h2>
-                      <h4>CDK Global, Hyderabad, India.</h4>
+                      <h4 style={{textAlign: "right"}}>Jan 2019 - July 2020</h4>
+                      <h4>CDK Global</h4>
+                      <h4>Hyderabad, INDIA.</h4>
                       <p>Design and Development of end to end react applications and API Connectors using .NET C#</p>
- </div>
+                    </div>
                   </div>
                 </article>
                 <article className="emp-entry animate-box" data-animate-effect="fadeInLeft">
@@ -48,7 +71,9 @@ class WorkHistory extends Component {
                     </div>
                     <div className="emp-label">
                     <h2>Software Engineer</h2>
-                      <h4>Prolifics Inc, Hyderabad, India.</h4>
+                      <h4 style={{textAlign: "right"}}>Nov 2014 - Jan 2019</h4>
+                      <h4>Prolifics Inc</h4>
+                      <h4>Hyderabad, INDIA.</h4>
                       <p>Design and development of data driven web applications and middleware API services using JAVA/J2EE</p>
                      </div>
                   </div>

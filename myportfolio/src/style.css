@@ -12,6 +12,16 @@ body {
     body {
       font-size: 16px; } }
 
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateY(-100%);
+    transition-delay: 5s;
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 a {
   color: #2c98f0;
   -webkit-transition: 0.5s;
@@ -100,6 +110,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro {
   background-image: url('../public/assets/background.jpg');
+  animation: 1.5s ease-out 0s 1 slideInFromLeft;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
