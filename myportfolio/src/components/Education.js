@@ -26,7 +26,7 @@ class Education extends Component {
                           <h3><a>Northern Illinois University</a></h3>
                           <h4>Management Information Systems</h4>
                           <span>Master's <SchoolIcon style={{fontSize:"35px"}}/></span>
-                          <span style={{fontSize:"13px"}}>2019 - Present</span>
+                          <span style={{fontSize:"13px"}}>Present | GPA 3.7</span>
                         </div>
                         {/* <div className="col-md-2">
                           <span><SchoolIcon style={{fontSize:"60px"}}/></span>
@@ -45,7 +45,7 @@ class Education extends Component {
                         <h3><a>Jawaharlal Technological University</a></h3>
                       <h4>Computer Science</h4>
                       <span>Bachelor's <SchoolIcon style={{fontSize:"35px"}}/></span>
-											<span style={{fontSize:"13px"}}>2010 - 2014</span>
+											<span style={{fontSize:"13px"}}>2014 | GPA 3.4</span>
                         </div>
                       </div>											
 										</div>

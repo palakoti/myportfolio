@@ -686,6 +686,8 @@ h1, h2, h3, h4, h5, h6 {
         color: #f88a57; }
         .ach-entry .desc .desc-three{
           color: #51868a; }
+          .ach-entry .desc .desc-four{
+            color: #82ac5a; }
   .ach-entry .desc .lead {
     font-size: 12px;
     text-transform: uppercase;

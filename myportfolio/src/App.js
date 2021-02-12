@@ -17,9 +17,9 @@ class App extends Component {
         <div className="container" id="container" data-section="container">
       
         <Navigation></Navigation>
-          <Skills></Skills>
-          <WorkHistory></WorkHistory>
+        <WorkHistory></WorkHistory>
           <Education></Education>
+          <Skills></Skills>
           <Achievements></Achievements>
           	</div>
             </div>
